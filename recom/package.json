@@ -1,0 +1,38 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "server-dev": "nodemon server/index.js",
+    "start": "node server/index.js",
+    "watch": "webpack -d --watch --config ./webpack.config.js --display-error-details",
+    "build": "webpack -p --config ./webpack.config.js --display-error-details"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-react": "^7.7.0",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.7.9",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "css-loader": "^3.2.0",
+    "nodemon": "^1.19.4",
+    "style-loader": "^1.0.0",
+    "webpack-cli": "^3.3.10"
+  }
+}

@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flow-root;
+}
+
+/*-------------------------Navbar style----------------------------*/
+#nav-par {
+    background-color: #000000;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+#logo {
+    text-align: center;
+    color: white;
+    float: left;
+    height: 100%;
+    width: 10%;
+    margin-left: 390px;
+}
+#logo ul{
+    margin-bottom: 0;
+}
+
+#logo-home {
+    color: white;
+    float: left;
+    margin: 9px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 7px solid #e2127a;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#nav-icon {
+    margin-left: 35px;
+}
+
+#nav-icon li {
+    color: #e2127a;
+    padding: 13px 8px;
+    font-size: 17px;
+}
+
+.user-icon {
+    padding: 13px;
+    margin-left: 10px;
+}
+
+.user-icon a {
+    color: white;
+}
+
+/*------------------------------------main container--------------------*/
+
+.main-contaner {
+    margin: 0 auto;
+    max-width: 1100px;
+    margin-top: 125px;
+}
+
+.left-main-contant {
+    width: 70%;
+    float: left;
+}
+
+.corner-border {
+    display: block;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.corner-border a {
+    color: #e2127a;
+    font-family: "adelle-sans", Helvetica, sans-serif;
+    letter-spacing: .07em;
+    font-size: 10px;
+    padding: 7px 14px;
+}
+
+.corner-border::after {
+    content: '';
+    position: absolute;
+    background-color: #e2127a;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    right: 3px;
+    transform: skew(30deg);
+}
+
+.corner-border::before {
+    content: '';
+    position: absolute;
+    background-color: #e2127a;
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -9px;
+}
+
+#page-title {
+    font-family: "adelle-sans", Helvetica, sans-serif;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    color: #000;
+    font-weight: 600;
+    font-size: calc(1em * 1.250 * 1.250 * 1.250 * 1.250);
+}
+
+#entry-summary {
+    max-width: 595px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    font-size: 1.2em;
+    color: #6A6A6A;
+    margin-bottom: .6rem;
+}
+
+.page-creater {
+    color: #6A6A6A;
+    font-size: 15px;
+    display: inline;
+    font-weight: 300;
+    letter-spacing: normal;
+}
+
+.page-creater-pink {
+    color: #e2127a;
+    border-right: 1px solid #6a6a6a;
+    margin: 5px;
+    padding-right: 7px;
+}
+
+#face-user {
+    color: #325a97;
+    font-size: 20px;
+    padding: 15px 15px 15px 0px;
+}
+
+.img-topic {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#twetter-user {
+    color: #33aced;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#page-topic {
+    line-height: 1.4;
+    display: block;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #424242;
+    font-family: Helvetica, sans-serif;
+}
+/*---------------------Next Section----------------*/
+h2{
+    font-family: "Heroic",Arial Narrow,Helvetica,sans-serif;
+    font-weight: 500;
+    letter-spacing: .05em;
+    font-style: normal;
+    font-size: 1.9em;
+    color: #424242;
+    padding: 12px 8px 0 0;
+
+}
+.corner-border-next {
+    display: block;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+.corner-border-next::after {
+    content: '';
+    position: absolute;
+    background-color: #424242;
+    width: 4px;
+    height: 85%;
+    top: 0;
+    right: 431px;
+    transform: skew(30deg);
+}
+
+.corner-border-next::before {
+    content: '';
+    position: absolute;
+    background-color: #424242;
+    width: 42%;
+    height: 3px;
+    top: 0;
+    left: -3px;
+}
+.next-list{
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: inherit;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    font-size: 1em;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 35px;
+}
+.next-list a{
+    color: #e2127A;
+    font-size: 18px;
+    padding: 10px 0px;
+    font-weight: inherit;
+}
